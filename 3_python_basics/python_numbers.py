@@ -15,3 +15,8 @@ print(5 % 2)
 print(type(2 ** 6))
 print(type(5 // 2))
 print(type(5 % 2))
+
+# math functions
+print(round(3.7))
+print(round(3.3))
+print(abs(-69))
