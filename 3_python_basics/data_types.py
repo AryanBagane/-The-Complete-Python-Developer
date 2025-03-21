@@ -7,6 +7,7 @@ list
 tuple
 set
 dict
+complex
 
 # classes -> custom types such as self made (for eg: SuperCar)
 

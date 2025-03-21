@@ -3,3 +3,4 @@ complex
 
 # Return the binary representation of an integer.
 print(bin(69))
+print(int("1000101", 2))   # converting into integer because of binary we take 2 as a base
