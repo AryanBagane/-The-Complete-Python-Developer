@@ -31,3 +31,31 @@ counter = 0
 for x in my_list:
     counter += x
     print(x, counter)
+
+
+# range
+for i in range(0, 10, 2):   # here 2 is step-over
+    print(i)
+
+for x in range(10, 0 ,-1):
+    print(x)
+
+# enumrate
+for i, char in enumerate("aryan"):
+    print(i, char)
+
+for i, char in enumerate(list(range(100))):
+    if char == 50:
+        print(f"index of 50 is {i}")
+
+# while
+i = 0
+while i < 50:
+    print(i)
+    i+=1
+
+while True:
+    response = input("Say Something: ")
+    if response == "bye":
+        print("Bye honey.")
+        break
